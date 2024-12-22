@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with the TechCon 2024 team through our contact page.">
+    <title>Contact Us</title>
+</head>
+<body>
+</body>
+</html>
+<header>
+    <h1>Contact Us</h1>
+</header>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="schedule.html">Schedule</a>
+    <a href="register.html">Register</a>
+</nav>
+<main>
+    <!-- Contact Information -->
+    <section>
+        <h2>Contact Information</h2>
+        <p>Email us at: <a href="mailto:contact@techcon2024.com">contact@techcon2024.com</a></p>
+        <p>Follow us on social media:</p>
+        <ul>
+            <li><a href="https://facebook.com/TechCon2024" target="_blank">Facebook</a></li>
+            <li><a href="https://twitter.com/TechCon2024" target="_blank">Twitter</a></li>
+            <li><a href="https://linkedin.com/company/TechCon2024" target="_blank">LinkedIn</a></li>
+        </ul>
+    </section>
+
+    <!-- Embedded Google Map -->
+    <section>
+        <h2>Our Location</h2>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345093344!2d-122.41941528468074!3d37.77492967975995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808e44f8b7db%3A0xdb3c0a7ef745f0c4!2sSan%20Francisco%20Conference%20Center!5e0!3m2!1sen!2sus!4v1609459200000!5m2!1sen!2sus" 
+            width="100%" 
+            height="400" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+    </section>
+
+    <!-- Contact Us Form -->
+    <section>
+        <h2>Contact Us</h2>
+        <form action="submit_contact.html" method="POST">
+            <!-- Name Field -->
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <!-- Email Field -->
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <!-- Message Field -->
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <div>
+                <button type="submit">Send Message</button>
+            </div>
+        </form>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2024 TechCon. All rights reserved.</p>
+</footer>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background-color: #007acc;
+        color: #fff;
+        text-align: center;
+        padding: 1em 0;
+    }
+    nav {
+        background-color: #005fa3;
+        text-align: center;
+        padding: 0.5em 0;
+    }
+    nav a {
+        color: white;
+        margin: 0 1em;
+        text-decoration: none;
+    }
+    main {
+        padding: 2em;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    section {
+        margin-bottom: 2em;
+    }
+    label {
+        display: block;
+        margin-bottom: 0.5em;
+    }
+    input, textarea {
+        width: 100%;
+        padding: 0.5em;
+        margin-bottom: 1em;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    button {
+        background-color: #007acc;
+        color: white;
+        border: none;
+        padding: 0.75em 1.5em;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #005fa3;
+    }
+    footer {
+        background-color: #f4f4f4;
+        text-align: center;
+        padding: 1em 0;
+    }
+</style>
